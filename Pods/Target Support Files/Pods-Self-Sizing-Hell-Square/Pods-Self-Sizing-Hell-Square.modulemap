@@ -1,0 +1,6 @@
+framework module Pods_Self_Sizing_Hell_Square {
+  umbrella header "Pods-Self-Sizing-Hell-Square-umbrella.h"
+
+  export *
+  module * { export * }
+}

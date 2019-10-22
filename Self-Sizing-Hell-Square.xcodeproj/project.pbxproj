@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		928C85C239BB436EB913ECB5 /* Pods_Self_Sizing_Hell_Square.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B5883896C8A2003197EAF3 /* Pods_Self_Sizing_Hell_Square.framework */; };
+		C34826D3235F432300BA4BDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34826D2235F432300BA4BDA /* AppDelegate.swift */; };
+		C34826D5235F432300BA4BDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34826D4235F432300BA4BDA /* SceneDelegate.swift */; };
+		C34826DC235F432500BA4BDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34826DB235F432500BA4BDA /* Assets.xcassets */; };
+		C34826DF235F432500BA4BDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34826DD235F432500BA4BDA /* LaunchScreen.storyboard */; };
+		C34826E7235F434500BA4BDA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34826E6235F434500BA4BDA /* TableViewController.swift */; };
+		C34826E9235F438B00BA4BDA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34826E8235F438B00BA4BDA /* TableViewCell.swift */; };
+		C34826EB235F43D800BA4BDA /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34826EA235F43D800BA4BDA /* CollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		196622BB3571821122A9CB9B /* Pods-Self-Sizing-Hell-Square.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Self-Sizing-Hell-Square.debug.xcconfig"; path = "Target Support Files/Pods-Self-Sizing-Hell-Square/Pods-Self-Sizing-Hell-Square.debug.xcconfig"; sourceTree = "<group>"; };
+		7EA4C2EA27305536931720D5 /* Pods-Self-Sizing-Hell-Square.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Self-Sizing-Hell-Square.release.xcconfig"; path = "Target Support Files/Pods-Self-Sizing-Hell-Square/Pods-Self-Sizing-Hell-Square.release.xcconfig"; sourceTree = "<group>"; };
+		A3B5883896C8A2003197EAF3 /* Pods_Self_Sizing_Hell_Square.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Self_Sizing_Hell_Square.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34826CF235F432300BA4BDA /* Self-Sizing-Hell-Square.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Self-Sizing-Hell-Square.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34826D2235F432300BA4BDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C34826D4235F432300BA4BDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C34826DB235F432500BA4BDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C34826DE235F432500BA4BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C34826E0235F432500BA4BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C34826E6235F434500BA4BDA /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C34826E8235F438B00BA4BDA /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C34826EA235F43D800BA4BDA /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C34826CC235F432300BA4BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928C85C239BB436EB913ECB5 /* Pods_Self_Sizing_Hell_Square.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23FDF7ABE7893A3E8D7F6820 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				196622BB3571821122A9CB9B /* Pods-Self-Sizing-Hell-Square.debug.xcconfig */,
+				7EA4C2EA27305536931720D5 /* Pods-Self-Sizing-Hell-Square.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A4BAAD89AE6248C892ED9070 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3B5883896C8A2003197EAF3 /* Pods_Self_Sizing_Hell_Square.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C34826C6235F432300BA4BDA = {
+			isa = PBXGroup;
+			children = (
+				C34826D1235F432300BA4BDA /* Self-Sizing-Hell-Square */,
+				C34826D0235F432300BA4BDA /* Products */,
+				23FDF7ABE7893A3E8D7F6820 /* Pods */,
+				A4BAAD89AE6248C892ED9070 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C34826D0235F432300BA4BDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C34826CF235F432300BA4BDA /* Self-Sizing-Hell-Square.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C34826D1235F432300BA4BDA /* Self-Sizing-Hell-Square */ = {
+			isa = PBXGroup;
+			children = (
+				C34826EC235FA99D00BA4BDA /* Classes */,
+				C34826D2235F432300BA4BDA /* AppDelegate.swift */,
+				C34826D4235F432300BA4BDA /* SceneDelegate.swift */,
+				C34826DB235F432500BA4BDA /* Assets.xcassets */,
+				C34826DD235F432500BA4BDA /* LaunchScreen.storyboard */,
+				C34826E0235F432500BA4BDA /* Info.plist */,
+			);
+			path = "Self-Sizing-Hell-Square";
+			sourceTree = "<group>";
+		};
+		C34826EC235FA99D00BA4BDA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C34826E6235F434500BA4BDA /* TableViewController.swift */,
+				C34826E8235F438B00BA4BDA /* TableViewCell.swift */,
+				C34826EA235F43D800BA4BDA /* CollectionViewCell.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C34826CE235F432300BA4BDA /* Self-Sizing-Hell-Square */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34826E3235F432500BA4BDA /* Build configuration list for PBXNativeTarget "Self-Sizing-Hell-Square" */;
+			buildPhases = (
+				73A630571D65D647EA733D85 /* [CP] Check Pods Manifest.lock */,
+				C34826CB235F432300BA4BDA /* Sources */,
+				C34826CC235F432300BA4BDA /* Frameworks */,
+				C34826CD235F432300BA4BDA /* Resources */,
+				F4C07DAA011C2192DC6CF05A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Self-Sizing-Hell-Square";
+			productName = "Self-Sizing-Hell-Square";
+			productReference = C34826CF235F432300BA4BDA /* Self-Sizing-Hell-Square.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C34826C7235F432300BA4BDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Daniel Munoz";
+				TargetAttributes = {
+					C34826CE235F432300BA4BDA = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = C34826CA235F432300BA4BDA /* Build configuration list for PBXProject "Self-Sizing-Hell-Square" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C34826C6235F432300BA4BDA;
+			productRefGroup = C34826D0235F432300BA4BDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C34826CE235F432300BA4BDA /* Self-Sizing-Hell-Square */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C34826CD235F432300BA4BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34826DF235F432500BA4BDA /* LaunchScreen.storyboard in Resources */,
+				C34826DC235F432500BA4BDA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73A630571D65D647EA733D85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Self-Sizing-Hell-Square-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4C07DAA011C2192DC6CF05A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Self-Sizing-Hell-Square/Pods-Self-Sizing-Hell-Square-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Self-Sizing-Hell-Square/Pods-Self-Sizing-Hell-Square-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Self-Sizing-Hell-Square/Pods-Self-Sizing-Hell-Square-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C34826CB235F432300BA4BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34826E9235F438B00BA4BDA /* TableViewCell.swift in Sources */,
+				C34826EB235F43D800BA4BDA /* CollectionViewCell.swift in Sources */,
+				C34826D3235F432300BA4BDA /* AppDelegate.swift in Sources */,
+				C34826D5235F432300BA4BDA /* SceneDelegate.swift in Sources */,
+				C34826E7235F434500BA4BDA /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C34826DD235F432500BA4BDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C34826DE235F432500BA4BDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C34826E1235F432500BA4BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C34826E2235F432500BA4BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C34826E4235F432500BA4BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 196622BB3571821122A9CB9B /* Pods-Self-Sizing-Hell-Square.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Self-Sizing-Hell-Square/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danmunoz.Self-Sizing-Hell-Square";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C34826E5235F432500BA4BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA4C2EA27305536931720D5 /* Pods-Self-Sizing-Hell-Square.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Self-Sizing-Hell-Square/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danmunoz.Self-Sizing-Hell-Square";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C34826CA235F432300BA4BDA /* Build configuration list for PBXProject "Self-Sizing-Hell-Square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34826E1235F432500BA4BDA /* Debug */,
+				C34826E2235F432500BA4BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34826E3235F432500BA4BDA /* Build configuration list for PBXNativeTarget "Self-Sizing-Hell-Square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34826E4235F432500BA4BDA /* Debug */,
+				C34826E5235F432500BA4BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C34826C7235F432300BA4BDA /* Project object */;
+}
