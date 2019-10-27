@@ -55,7 +55,6 @@ final class TableViewCell: UITableViewCell {
             self.collectionView.trailingAnchor.constraint(equalTo: self.contentView.trailingAnchor),
             self.collectionView.bottomAnchor.constraint(equalTo: self.contentView.bottomAnchor)
         ])
-        
     }
     
     // MARK: - Data source update
@@ -63,16 +62,18 @@ final class TableViewCell: UITableViewCell {
     /// Updates the `numberOfSquares` property
     func update(numberOfSquares: Int) {
         self.numberOfSquares = numberOfSquares
-        // The only way I found to force `self.collectionView.contentSize` to be (fairly)correct
-        self.contentView.layoutIfNeeded()
     }
     
     // MARK: - Workaround
     
     // When this function is not overriden the "table view cell height zero" warning is displayed.
     override func systemLayoutSizeFitting(_ targetSize: CGSize, withHorizontalFittingPriority horizontalFittingPriority: UILayoutPriority, verticalFittingPriority: UILayoutPriority) -> CGSize {
-        // Returns `collectionView.contentSize` in order to set the UITableVieweCell height a value greater than 0 and closer to the actual collection view value.
-        return collectionView.contentSize
+        // `collectionView.contentSize` has a wrong width because in this nested example, the sizing pass occurs before te layout pass,
+        // so we need to force a force a  layout pass with the corredt width.
+        self.contentView.frame = self.bounds
+        self.contentView.layoutIfNeeded()
+        // Returns `collectionView.contentSize` in order to set the UITableVieweCell height a value greater than 0.
+        return self.collectionView.contentSize
     }
 
 }

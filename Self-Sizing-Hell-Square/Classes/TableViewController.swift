@@ -51,7 +51,7 @@ extension TableViewController: UITableViewDataSource {
             return UITableViewCell()
         }
         // Defines the number of squares to be displayed on the collection view
-        cell.update(numberOfSquares: 3)
+        cell.update(numberOfSquares: 4)
         return cell
     }
 }
